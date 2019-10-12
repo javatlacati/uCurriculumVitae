@@ -35,8 +35,6 @@ public class JTextAreaPlaceholder extends JTextArea implements FocusListener {
 		if (getForeground() == Color.GRAY) {
 			setForeground(Color.BLACK);
 			setText("");
-		} else {
-			//Do nothing
 		}
 	}
 

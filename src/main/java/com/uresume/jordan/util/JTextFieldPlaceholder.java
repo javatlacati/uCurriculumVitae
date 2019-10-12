@@ -35,8 +35,6 @@ public class JTextFieldPlaceholder extends JTextField implements FocusListener {
 		if (getForeground() == Color.GRAY) {
 			setForeground(Color.BLACK);
 			setText("");
-		} else {
-			//Do nothing
 		}
 	}
 
